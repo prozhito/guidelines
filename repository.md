@@ -22,8 +22,8 @@ git push --set-upstream origin feat/<task-name>  # Push your task
 3. Do not use `git rebase` with already merged commits.
 4. Make a PR from `feat/<your-task>` to `dev` branch. Write a description. Example:
 ```
-Task: [Task name](https://github.com/WDL-Team/greet-card/issues/1)
-Screenshot: ![](https://private-user-images.githubusercontent.com/51874769.png)
+Task: [Task name](https://github.com/prozhito/utils/issues/1)
+Screenshot:
 
    – [x] The smallest available page width: 320px
    – [±] UI is copied from the template or is even improved
