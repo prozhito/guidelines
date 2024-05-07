@@ -17,14 +17,13 @@ cd utils
 nvm install 21
 npm install
 ```
-There is no prettier in this project. Important: use [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (vscode) or similar for your IDE. Or [install](https://prettier.io/docs/en/install.html) it in project.
 
 ### Coworking process:
 1. `git pull`
 2. `git checkout -b feat/feature_name`
 3. Make changes.
-4. `npm format` (If prettier was installed. In other way use IDE internal code formatting)
-5. `npm lint`
+4. `npm run format`
+5. `npm run lint`
 6. `git add .`
 7. `git commit -m "feat: feature name"`
 8. `git push`
@@ -34,3 +33,6 @@ There is no prettier in this project. Important: use [Prettier - Code formatter]
 12. `git checkout main`
 13. `git branch -D feat/feature_name`
 14. Repeat from 1-st step for a new feature.
+
+### Deployment:
+[Actions](https://github.com/prozhito/utils/actions) > Prozhito utils live/test > Run workflow
